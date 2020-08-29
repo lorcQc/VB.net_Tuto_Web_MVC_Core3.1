@@ -1,0 +1,9 @@
+﻿<Project Sdk="Microsoft.NET.Sdk.web">
+
+  <PropertyGroup>
+    <RootNamespace>DemoWebVB.WebApp</RootNamespace>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+    <OptionStrict>On</OptionStrict>
+  </PropertyGroup>
+
+</Project>
