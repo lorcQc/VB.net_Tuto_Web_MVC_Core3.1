@@ -13,16 +13,11 @@ Public Class Startup
 
     ' This method gets called by the runtime. Use this method to add services to the container.
     Public Sub ConfigureServices(services As IServiceCollection)
-        services.AddControllers()
+        services.AddControllersWithViews().AddRazorRuntimeCompilation()
     End Sub
 
     ' This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
     Public Sub Configure(app As IApplicationBuilder, env As IWebHostEnvironment)
-
-        If env.IsDevelopment() Then
-            app.UseDeveloperExceptionPage()
-        End If
-
         app.UseRouting()
         app.UseEndpoints(Sub(endpoints) endpoints.MapDefaultControllerRoute())
     End Sub

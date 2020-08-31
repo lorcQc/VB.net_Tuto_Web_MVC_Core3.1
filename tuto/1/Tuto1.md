@@ -1,4 +1,4 @@
-# Controllers - Hello world
+# Hello world
 
 ### 1 - Create the web project
 
@@ -101,7 +101,7 @@ End Class
 Notice: the class now inherits from ControllerBase.
 ControllerBase is a base class for an MVC controllers without view support.
 
-Remplacer la méthode Configure de la classe Startup par celle-ci : 
+Replace the Configure method of the Startup class with the following:
 
 ```
     Public Sub Configure(app As IApplicationBuilder, env As IWebHostEnvironment)
@@ -111,7 +111,7 @@ Remplacer la méthode Configure de la classe Startup par celle-ci :
 ```
 
 We have removed app.UseWelcomePage().
-This configuration redirects all HTTP requests to the blue home page seen previously.
+This configuration redirects all HTTP requests to the welcome page seen previously.
 
 We have added the middleware allowing mvc to redirect requests to the correct controller actions.
 

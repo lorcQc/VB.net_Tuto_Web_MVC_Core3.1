@@ -1,10 +1,9 @@
 ﻿Imports Microsoft.AspNetCore.Mvc
-
 Public Class Home
-    Inherits ControllerBase
+    Inherits Controller
 
-    Public Function Index() As String
-        Return "Hello world"
+    Public Function Index() As IActionResult
+        Return view
     End Function
 
 End Class
