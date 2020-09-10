@@ -1,6 +1,8 @@
 # How can we use VB and MVC Core 3.1 to build web applications
 #### we will need a little bit of C# ...
 
+[Create an project - Quick start guide](./tuto/0/QuickStartGuide.md)
+
 ## /!\ Work in Progress /!\
 
  1. [Hello world](./tuto/1/Tuto1.md)
