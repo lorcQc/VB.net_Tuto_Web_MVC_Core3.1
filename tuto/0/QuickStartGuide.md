@@ -13,8 +13,8 @@ Search Microsoft.AspNetCore.Mvc.Razor.RuntimeCompilation, check the project and 
 
 ![](./images/200400.png)
 
-Replace <Project Sdk="Microsoft.NET.Sdk"> with <Project Sdk="Microsoft.NET.Sdk.web">
-Remove <OutputType>Exe</OutputType>
+Replace \<Project Sdk="Microsoft.NET.Sdk"> with \<Project Sdk="Microsoft.NET.Sdk.web">
+Remove \<OutputType>Exe\</OutputType>
 
 ![](./images/100500.png)
 

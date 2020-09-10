@@ -16,8 +16,8 @@ Press [Create]
 Right click on the project and select "Edit Project File"
 ![](./images/100400.png)
 
-Replace <Project Sdk="Microsoft.NET.Sdk"> with <Project Sdk="Microsoft.NET.Sdk.web">
-Remove <OutputType>Exe</OutputType>
+Replace \<Project Sdk="Microsoft.NET.Sdk"> with \<Project Sdk="Microsoft.NET.Sdk.web">
+Remove \<OutputType>Exe\</OutputType>
 
 ![](./images/100500.png)
 
